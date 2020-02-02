@@ -1,14 +1,13 @@
-package practice;
 import java.util.*;
 
-public class practice {
+public class dealer {
 	int Number;
 	String ActSuit;
 
 	ArrayList<String> deck = new ArrayList<String>();
 	ArrayList<Integer> list = new ArrayList<Integer>();
 
-	practice(int HandNumber) {
+	dealer(int HandNumber) {
 		Number = HandNumber;
 		for(int o = 0; o < 4; o++) {
 			if(o == 0) ActSuit = "Hearts";
